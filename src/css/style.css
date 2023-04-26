@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+    display: flex;
+    width: 750px;
+    height: 400px;
+    margin: 100px auto;
+}
+
+.container img {
+    width: 30%;
+    height: 10%;
+}
+
+.container h1{
+    margin: 20px 0;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+}
+
+.container p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+.sedans {
+    width: 250px;
+    padding: 40px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px;
+}
+
+.SUVs {
+    width: 250px;
+    padding: 40px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    width: 250px;
+    padding: 40px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 5px 5px 0;
+}
+
+.botao {
+    display: table;
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+}
+
+.btnSedan {
+    color: hsl(31, 77%, 52%);
+}
+
+.btnSUV {
+    color: hsl(184, 100%, 22%);
+}
+
+.btnLuxury{
+    color: hsl(179, 100%, 13%);
+}
